@@ -2,6 +2,9 @@
 <h1 align="center">Hi 👋, I'm Kamil</h1>
 <h3 align="center">A student from Poland trying to get into DS, ML/AI</h3>
 
+This summer i will try to learn a lots of topics from Data science to land a position of Data Science Intern   
+You can see all my progress [here](https://github.com/xKomil/DataScienceSummerStudy)
+Other repositories are mostly projects for my studies
 - 📫 How to reach me **kamilplocki13@gmail.com**
 
 <div align="left">
