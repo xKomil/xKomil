@@ -13,9 +13,6 @@ Other repositories are mostly projects for my studies
   </a>
 </div>
 
-<div align="center">
-  <img src="https://profile-counter.glitch.me/xKomil/count.svg?"  />
-</div>
 
 ###
 
