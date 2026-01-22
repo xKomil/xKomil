@@ -2,25 +2,10 @@
 
 # Hi 👋, I'm Kamil  
 
-📊 **Data Scientist intern** from Poland  
+📊 **Junior Gen Ai Specialist** from Poland  
 
-🎓 Bachelor's degree in Economic Informatics – University of Lodz  
-🌱 Currently deepening skills in **Machine Learning** and **Data Analytics**  
+🎓 Bachelor's degree in Economic Informatics – University of Lodz
 📫 kamilplocki13@gmail.com  
-
----
-
-## 🚀 About Me  
-I am passionate about turning raw data into actionable insights.  
-My experience includes working with **customer segmentation**, **pricing optimization**, and **AI-powered solutions**.  
-I enjoy combining technical skills in **Python**, **SQL**, and **machine learning** with analytical thinking to support data-driven decision-making.  
-
----
-
-## 🛠 Tech Stack  
-
-**Languages:**  
-Python · SQL · C#  
 
 **Data Science & Analytics:**  
 Pandas · NumPy · scikit-learn · Matplotlib · Seaborn · Power BI · SAP HANA  
