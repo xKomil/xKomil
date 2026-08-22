@@ -52,8 +52,9 @@ Built with **Next.js** on Netlify, **Supabase** with row-level security througho
 **Gen AI**
 
 ![Google Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![LLM apps and agents](https://img.shields.io/badge/LLM_apps_and_agents-1C3C3C?style=flat-square)
 
 **Web**
 
