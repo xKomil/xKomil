@@ -91,7 +91,7 @@ Built with **Next.js** on Netlify, **Supabase** with row-level security througho
 
 <div align="center">
 
-🎓 **BSc in Economic Informatics** — University of Łódź
+🎓 **MSc student in Data Analysis** · BSc in Economic Informatics — University of Łódź
 
 <br />
 
