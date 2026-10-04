@@ -15,6 +15,14 @@ Poland · I build things that put language models to work, and ship them to real
 
 ## 🚀 What I'm building
 
+<table>
+  <tr>
+    <td align="center" width="33%"><a href="https://niespodziankamuzyczna.pl"><img src="assets/niespodzianka.png" alt="Niespodzianka Muzyczna: a personalised song as a gift" width="260" /></a><br /><sub><b>Niespodzianka Muzyczna</b></sub></td>
+    <td align="center" width="33%"><a href="https://hey-ev.vercel.app"><img src="assets/ev.png" alt="E.V.: health app with the EV assistant" width="260" /></a><br /><sub><b>E.V.</b></sub></td>
+    <td align="center" width="33%"><a href="https://guessthepassport.vercel.app"><img src="assets/guessthepassport.png" alt="GuessThePassport: guess the country from its passport" width="260" /></a><br /><sub><b>GuessThePassport</b></sub></td>
+  </tr>
+</table>
+
 ### 🎵 [Niespodzianka Muzyczna](https://niespodziankamuzyczna.pl) &nbsp;<sub>· live · commercial</sub>
 
 A personalised song as a gift. You answer a few questions about the person, pick a
