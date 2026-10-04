@@ -26,24 +26,36 @@ to the track. Singles from 39.99 zł, EP and full-album tiers on the way.
 The genuinely hard part is the vocal: most engines read Polish lyrics with an American
 accent and no emotion, so picking and driving the audio models is most of the work.
 
-### 💪 [E.V.](https://ev-e.netlify.app) &nbsp;<sub>· live · private repo</sub>
+### 💪 [E.V.](https://hey-ev.vercel.app) &nbsp;<sub>· live · private repo</sub>
 
-A health coach for a two-person household — workout plans and sessions, nutrition
-logging with photo analysis, an AI coach you can actually talk to, and a gamification
-layer that scores itself from data the app already has.
+A health app for a two-person household, built around **EV**, an AI assistant you can
+type or talk to. She plans training and food, logs what you tell her (weight, sleep,
+meals) and judges the numbers against your actual goal. Workouts with progression and
+deload, a meal calendar for two (shared dinners, separate breakfasts sized to each
+person's calories), a pantry read off fridge photos and a shared shopping list.
 
-Built with **Next.js** on Netlify, **Supabase** with row-level security throughout, and
-**Google Gemini** including the Live API. Two pieces I like:
+Built with **Next.js** on Vercel, **Supabase** with row-level security throughout, and
+**Google Gemini** including the Live API. A few pieces I like:
 
-- **Voice mode runs browser → Google directly**, because Netlify Functions can't hold a
-  WebSocket. The server's only job is minting a single-use ephemeral token with the
-  model, system prompt and tool list locked in — the browser never holds an API key and
-  can't substitute its own prompt. Every tool call still round-trips to the server, so
-  writes happen under the user's own RLS.
-- **Steps sync from an iPhone with nothing to install.** An iOS Shortcut posts Apple
-  Health step counts to a token-authenticated endpoint. The write goes through one
-  `security definer` Postgres function, so an endpoint that is public by construction
-  never holds credentials that bypass RLS.
+- **Voice mode runs browser → Google directly.** The server only mints a single-use
+  ephemeral token with the model, system prompt and tool list locked in, so the browser
+  never holds an API key and can't swap in its own prompt. Every tool call still
+  round-trips to the server, so writes happen under the user's own RLS.
+- **The smart scale feeds itself.** Xiaomi Home → Apple Health → an iOS Shortcut posts
+  weight, body fat, lean mass and steps to a token-authenticated endpoint, written by
+  one `security definer` Postgres function, so a public endpoint never holds credentials
+  that bypass RLS.
+- **Safe to talk to in a shared flat.** Before EV first changes a training plan on a
+  given day it saves yesterday's version; deleting anything needs an explicit "yes", and
+  a restore shows exactly what will change before it touches anything.
+
+### 🛂 [GuessThePassport](https://guessthepassport.vercel.app) &nbsp;<sub>· live · [open source](https://github.com/xKomil/GuessThePassport)</sub>
+
+A mobile web game: guess the country from its passport. The name is blurred, so all you
+have is the coat of arms and the language. A first-try guess on the cover scores 100,
+a second try with the data page as a hint scores 50, and a round of ten ends on a Top 10
+leaderboard. Next.js 16, React 19, Tailwind 4, Framer Motion and Supabase, with RLS
+that allows public reads and inserts into the leaderboard, and nothing else.
 
 ---
 
